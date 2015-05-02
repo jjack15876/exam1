@@ -1,7 +1,6 @@
 {
   "name": "exam1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,15 @@
   "bugs": {
     "url": "https://github.com/jjack15876/exam1/issues"
   },
-  "homepage": "https://github.com/jjack15876/exam1#readme"
+  "homepage": "https://github.com/jjack15876/exam1#readme",
+  "dependencies": {
+    "co-body": "^1.2.0",
+    "co-views": "^0.3.0",
+    "koa": "^0.20.0",
+    "koa-logger": "^1.2.2",
+    "koa-route": "^2.4.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "description": ""
 }
