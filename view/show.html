@@ -3,6 +3,21 @@
 {% block title %}{{ post.title }}{% endblock %}
 
 {% block content %}
-  <h1>{{ post.title }}</h1>
-  <p>{{ post.body }}</p>
+          <div id="topbar">
+            <H1>獵奇貓</H1>
+              <div>
+                <a href="https://www.google.com/calendar/" style="padding-left:4px;padding-right:4px" title="Google日曆">日曆</a>
+                <a href="https://translate.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google翻譯">翻譯</a>
+                <a href="https://www.youtube.com/" style="padding-left:4px;padding-right:4px" title="Youtube">Youtube</a>
+                <a href="https://www.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google首頁">Google</a>
+              </div>
+          </div>
+        <div>
+          <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10640993_534297743383162_3252301893148919056_n.jpg?oh=bdb4d6902bd1a21351f0634a4c1d6a7f&oe=5586CDDC&__gda__=1434601069_5ff50959c431876d9ceea5806d881e94" style="display:block; margin:auto;">
+        </div>
+        <div> 
+  <h1>標題{{ post.title }}</h1>
+  <p>內容{{ post.body }}</p>
+  <p><a href:"./..">返回</a></p>
+        </div>
 {% endblock %}

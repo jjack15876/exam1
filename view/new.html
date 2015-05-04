@@ -1,13 +1,33 @@
 {% extends 'layout.html' %}
 
-{% block title %}New Post{% endblock %}
+{% block title %}新增{% endblock %}
 
 {% block content %}
   <h1>New Post</h1>
-  <p>Create a new post.</p>
+  <div id="topbar">
+            <H1>獵奇貓</H1>
+              <div>
+                <a href="https://www.google.com/calendar/" style="padding-left:4px;padding-right:4px" title="Google日曆">日曆</a>
+                <a href="https://translate.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google翻譯">翻譯</a>
+                <a href="https://www.youtube.com/" style="padding-left:4px;padding-right:4px" title="Youtube">Youtube</a>
+                <a href="https://www.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google首頁">Google</a>
+              </div>
+          </div>
+        <div>
+          <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10640993_534297743383162_3252301893148919056_n.jpg?oh=bdb4d6902bd1a21351f0634a4c1d6a7f&oe=5586CDDC&__gda__=1434601069_5ff50959c431876d9ceea5806d881e94" style="display:block; margin:auto;">
+        </div>
+        <div id="wall" class="block">
+                  <div class="title">
+                     <span>
+                        <H1>測試用留言板</H1>
+                     </span>
+                  </div>
+          <div id="wall-content" class="db_pd">
   <form action="/post" method="post">
-    <p><input type="text" placeholder="Title" name="title"></p>
-    <p><textarea placeholder="Contents" name="body"></textarea></p>
-    <p><input type="submit" value="Create"></p>
+    <p><input type="text" placeholder="標題" name="title"></p>
+    <p><textarea placeholder="內容" name="body"></textarea></p>
+    <p><input type="submit" value="新增"></p>
   </form>
+   </div>
+ </div>
 {% endblock %}

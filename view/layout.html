@@ -1,16 +1,30 @@
 <html>
 <head>
-  <title>{% block title %}Blog{% endblock %}</title>
+  <title>{% block title %}獵奇貓{% endblock %}</title>
   <style>
     body {
+      background-color: #d0e4fe;
       padding: 80px;
       font: 16px Helvetica, Arial;
     }
     h1 {
       font-size: 2em;
+      color: black;
+      text-align: center;
     }
     h2 {
       font-size: 1.2em;
+    }
+    p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+    .db_pd
+    {
+       padding-top: 5px;
+     padding-right: 15px;
+     padding-bottom: 10px;
+     padding-left: 15px;
     }
     #posts {
       margin: 0;
@@ -29,9 +43,6 @@
     textarea {
       width: 500px;
       height: 300px;
-    }
-    input[type=text],
-    textarea {
       border: 1px solid #eee;
       border-top-color: #ddd;
       border-left-color: #ddd;
